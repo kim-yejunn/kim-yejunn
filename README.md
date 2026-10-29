@@ -57,4 +57,3 @@
 ### Contact
 
 [![Email](https://img.shields.io/badge/kimyj0830@naver.com-03C75A?style=flat-square&logo=naver&logoColor=white)](mailto:kimyj0830@naver.com)
-[![Solved.ac Profile](https://mazassumnida.wtf/api/v2/generate_badge?boj=kimyj0830)](https://solved.ac/kimyj0830/)
