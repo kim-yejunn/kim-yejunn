@@ -38,7 +38,8 @@
 | 프로젝트 | 기간 · 역할 | 핵심 |
 |---|---|---|
 | [**Findex**](https://github.com/SB14-Avengers/sb14-findex-team01)<br>공공 Open API 주가지수 연동 | 2026.09 · 6인<br>지수 데이터 연동·연동 이력·배포 | 27,625건 연동 실패 0건. 청크 트랜잭션으로 커밋 27,625회 → 약 553회, 실패 건만 이력으로 격리. 복합 커서로 약 18만 건 누락·중복 없이 조회 |
-| [**MoNew**](https://github.com/SB14-GoS/sb14-monew-team01)<br>관심사 맞춤 뉴스 통합 서비스 | 2026.10 ~ · 6인<br>**팀장**, 세팅·알림·활동 내역 | 커밋 이후 이벤트로 MongoDB 활동 내역 문서를 미리 갱신해 대량 데이터 조회 평균 3.90ms → 1.66ms. Testcontainers·CI 커버리지·MDC 로깅 등 팀 개발 환경 구축 |
+| [**MoNew**](https://github.com/SB14-GoS/sb14-monew-team01)<br>관심사 맞춤 뉴스 통합 서비스 | 2026.10 ~ 2026.11 · 5인<br>**팀장**, 활동 내역·이벤트 파이프라인·백업/복구 | MongoDB 조회 모델로 활동 내역 조회 평균 3.90ms → 1.66ms. Transactional Outbox로 MongoDB 장애 중 이벤트 유실 50% → 0%, 인덱스로 댓글 삭제 API 388.9ms → 11.1ms. Testcontainers·CI 커버리지·MDC 로깅 등 팀 개발 환경 구축 |
+| [**OneRoof**](https://github.com/kim-yejunn/oneroof)<br>관련 거래처·판매장려금 지급 통제 | 2026.11 · 개인<br>AX 인재전쟁(삼일PwC) 과제 | 대표자·주소·계좌 중 2개 이상 일치를 전이적으로 묶어 한도 쪼개기(그룹 월 합산 한도의 약 2배)를 판정. 판정·계산은 코드, 결정은 사람, AI는 회신 정리만(원문에 없는 금액 제거). Spring Modulith, 통합 테스트 46개 |
 | [**Discodeit**](https://github.com/kim-yejunn/14-sprint-mission/tree/%EA%B9%80%EC%98%88%EC%A4%80)<br>Discord형 채팅 백엔드 | 2026.07 ~ 2026.10 · 개인 | GitHub Actions로 ECR 푸시 → ECS 배포 자동화. 저장소 인터페이스로 로컬/S3 전환, Presigned URL 다운로드. 테스트 커버리지 Codecov |
 | [**너랑 연습**](https://github.com/kim-yejunn/practiceyou.github.io)<br>카카오톡 대화 기반 말투 모방 챗봇 | 2024.09 ~ 2024.10 · 3인<br>백엔드 | 기기별로 다른 카카오톡 내보내기 4종을 형식 판별 후 정규화. OpenAI API 연동, tiktoken으로 최근 19,000토큰 유지, 배포 |
 
