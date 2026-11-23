@@ -37,7 +37,7 @@
 |---|---|---|
 | [**MoNew**](https://github.com/SB14-GoS/sb14-monew-team01)<br>관심사 맞춤 뉴스 통합 서비스 | 2026.10 ~ 2026.11 · 5인<br>**팀장**, 활동 내역·이벤트 파이프라인·S3 백업/복구·배포 (PR 38/107) | MongoDB 조회 모델로 활동 내역 조회 평균 3.90 → 1.66ms. Transactional Outbox로 장애 중 유실 50% → 0%, multikey·복합 인덱스로 댓글 삭제 API 388.9 → 11.1ms · 기사 50만 건 35.2 → 0.036ms. Testcontainers·PR CI·MDC 로깅 등 팀 개발 기반 구축 |
 | [**Findex**](https://github.com/SB14-Avengers/sb14-findex-team01)<br>공공 Open API 주가지수 연동 | 2026.09 · 6인<br>연동 도메인 전체·이력 조회·배포 (PR 13/67) | 지수 167개 27,625건 연동 실패 0건. 50건 청크+폴백 트랜잭션으로 커밋 27,625 → 약 553회, 실패 건만 FAILED 이력 격리. N+1 제거 및 복합 커서로 약 18만 건 누락·중복 없이 조회 |
-| [**OneRoof**](https://github.com/kim-yejunn/oneroof) ([배포](https://oneroof-17dq.axhub.app))<br>관련 거래처·판매장려금 지급 통제 | 2026.11 · 개인<br>AX 인재전쟁(삼일PwC) 과제 W07 | 대표자·주소·계좌 중 2개 이상 일치를 Union-Find로 전이 판정해 한도 쪼개기 탐지. Spring Modulith 10개 모듈 Outbox·권한·연체 상계 통제. AI는 회신 정리만 맡기고 원문에 없는 금액·증빙 제거. 단위·통합 테스트 46개 |
+| [**OneRoof**](https://github.com/kim-yejunn/oneroof) ([배포](https://oneroof-17dq.axhub.app))<br>관련 거래처·판매장려금 지급 통제 | 2026.11 · 개인<br>AX 인재전쟁(삼일PwC) 과제 W07<br>**2,916명 중 상위 5% 인증** | 대표자·주소·계좌 중 2개 이상 일치를 Union-Find로 전이 판정해 한도 쪼개기 탐지. Spring Modulith 10개 모듈 Outbox·권한·연체 상계 통제. AI는 회신 정리만 맡기고 원문에 없는 금액·증빙 제거. 단위·통합 테스트 46개 |
 | [**Discodeit**](https://github.com/kim-yejunn/14-sprint-mission/tree/%EA%B9%80%EC%98%88%EC%A4%80)<br>Discord형 채팅 백엔드 | 2026.07 ~ 2026.10 · 개인 | GitHub Actions로 ECR 푸시 → ECS 배포 자동화. 저장소 인터페이스로 로컬/S3 전환, Presigned URL 다운로드, N+1 제거 및 테스트 커버리지 Codecov |
 
 <br>
